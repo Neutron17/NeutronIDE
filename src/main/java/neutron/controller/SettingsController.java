@@ -3,13 +3,13 @@ package neutron.controller;
 import javafx.fxml.FXML;
 import javafx.scene.control.ColorPicker;
 import javafx.scene.control.Spinner;
-import org.controlsfx.control.textfield.CustomTextField;
+import javafx.scene.control.TextField;
 
 public class SettingsController {
     @FXML
-    CustomTextField cTextField = new CustomTextField();
+    TextField cTextField = new TextField();
     @FXML
-    CustomTextField pyTextField = new CustomTextField();
+    TextField pyTextField = new TextField();
     @FXML
     ColorPicker bgPicker = new ColorPicker();
     @FXML

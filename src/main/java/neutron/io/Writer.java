@@ -1,7 +1,6 @@
 package neutron.io;
 
 import java.io.*;
-import java.nio.charset.StandardCharsets;
 
 public class Writer {
     public static void bufferedWriter(String text, String path) {

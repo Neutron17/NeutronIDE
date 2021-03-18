@@ -5,18 +5,16 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-import neutron.controller.SettingsController;
-import neutron.pass.WhiteSpace;
 
-public class Main extends Application {
+public class Main extends Application { // --module-path C:\Users\sando\Downloads\javafx-sdk-15.0.1\lib --add-modules=javafx.controls,javafx.fxml
     public static Stage stage;
     public static Scene scene;
     @Override
-    public void start(Stage primaryStage) throws Exception{
+    public void start(Stage primaryStage) throws Exception {
         stage = primaryStage;
         stage.setTitle("Neutron IDE");
         stage.setMaximized(true);
-        Parent root = FXMLLoader.load(getClass().getResource("/sample.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/editor.fxml"));
         scene = new Scene(root);
         stage.setScene(scene);
         stage.show();
