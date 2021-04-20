@@ -1,0 +1,8 @@
+.text-field {
+    -fx-background-color: Black;
+    -fx-text-fill: White;
+    -fx-font-size: 14;
+}
+.label {
+    -fx-font-size: 18;
+}
